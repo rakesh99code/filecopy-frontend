@@ -36,8 +36,8 @@ function DirectoryHeader({
         const user = await fetchUser();
         setUserName(user.name);
         setUserEmail(user.email);
-        setMaxStorageInBytes(user.maxStorageInBytes);
-        setUsedStorageInBytes(user.usedStorageInBytes);
+        setMaxStorageInBytes(maxStorageInBytes);
+        setUsedStorageInBytes(usedStorageInBytes);
         setLoggedIn(true);
       } catch (err) {
         setLoggedIn(false);
