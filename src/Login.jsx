@@ -109,6 +109,11 @@ const Login = () => {
           useOneTap
         />
       </div>
+      <div className="mt-12">
+        <h3>Demo Credential to Login</h3>
+        <h4>Email: usefreesourcehelpdesk@gmail.com</h4>
+        <h4>Password: abcd1!</h4>
+      </div>
     </div>
   );
 };
