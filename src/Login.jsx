@@ -113,6 +113,7 @@ const Login = () => {
         <h3>Demo Credential to Login</h3>
         <h4>Email: usefreesourcehelpdesk@gmail.com</h4>
         <h4>Password: abcd1!</h4>
+        <h4>Allow third party cookie access to get login.</h4>
       </div>
     </div>
   );
