@@ -37,6 +37,11 @@ export default function UsersPage() {
   };
 
   useEffect(() => {
+    const token = localStorage.getItem("sid");
+    if (!token) {
+      navigate("/login");
+      return;
+    }
     fetchUsers();
     fetchCurrentUser();
   }, []);
